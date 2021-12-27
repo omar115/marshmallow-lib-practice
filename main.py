@@ -15,4 +15,4 @@ album = dict(artist=bowie, title="Hunky Dory", release_date=date(2020, 12, 12))
 
 schema = AlbumSchema()
 result = schema.dump(album)
-pprint(result, indent=2)
+pprint(result, indent=4)
